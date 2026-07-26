@@ -8,7 +8,7 @@ import { BUYER_TIPS } from "@/lib/content";
 export const metadata: Metadata = {
   title: "For Buyers",
   description:
-    "From prequalification to closing — tips and guidance for buying a home in Chicago from Nexus Chicago Realty Group.",
+    "From prequalification to closing: tips and guidance for buying a home in Chicago from Nexus Chicago Realty Group.",
 };
 
 export default function BuyersPage() {
@@ -16,7 +16,7 @@ export default function BuyersPage() {
     <>
       <PageHero
         kicker="Buyer Resources"
-        title="Find the answers — and peace of mind."
+        title="Find the answers, and peace of mind."
         subtitle="Whether you've spent years saving or you're just starting to dream, the questions around buying a home can feel endless. Work with one of the industry leaders in experience and service."
         image="/images/buyers.jpg"
       />
@@ -26,7 +26,7 @@ export default function BuyersPage() {
             Your path to homeownership
           </h2>
           <p className="mt-4 leading-relaxed text-nexus-ink/75">
-            First home, second home, or a fixer-upper — these fundamentals put
+            First home, second home, or a fixer-upper: these fundamentals put
             you in position to move quickly and buy with confidence.
           </p>
         </Reveal>

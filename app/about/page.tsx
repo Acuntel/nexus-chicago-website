@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 const PILLARS = [
   {
     title: "Full-Time Professionals",
-    body: "Nexus agents are full-time, experienced professionals. We don't hire just anyone interested in joining — every agent brings an impressive resume and thorough knowledge of the communities they serve.",
+    body: "Nexus agents are full-time, experienced professionals. We don't hire just anyone interested in joining. Every agent brings an impressive resume and thorough knowledge of the communities they serve.",
   },
   {
     title: "Truly Local",
-    body: "Every Nexus agent must live, work, and be part of the same communities they represent — from Chicago's lakefront neighborhoods to the North Shore.",
+    body: "Every Nexus agent must live, work, and be part of the same communities they represent, from Chicago's lakefront neighborhoods to the North Shore.",
   },
   {
     title: "Technology That Works",
@@ -52,7 +52,7 @@ export default function AboutPage() {
               Selling? Our site is viewed by thousands of visitors per day, with
               thousands more buyers in our database. Your home gets prominent
               marketing, a virtual tour, and a comprehensive Comparative Market
-              Analysis to make sure it's visible — and priced right.
+              Analysis to make sure it's visible and priced right.
             </p>
             <p className="mt-4 font-medium text-nexus-navy">
               At Nexus, our agents are our #1 resource, and our customers are

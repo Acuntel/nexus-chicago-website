@@ -8,7 +8,7 @@ import { SELLER_TIPS } from "@/lib/content";
 export const metadata: Metadata = {
   title: "For Sellers",
   description:
-    "Sell faster and at the best possible price — seller preparation guidance from Nexus Chicago Realty Group.",
+    "Sell faster and at the best possible price: seller preparation guidance from Nexus Chicago Realty Group.",
 };
 
 export default function SellersPage() {

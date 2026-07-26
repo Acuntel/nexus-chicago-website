@@ -32,7 +32,7 @@ export default function TestimonialsPage() {
               <p className="mt-5 flex-1 text-[15px] leading-relaxed text-nexus-ink/80">
                 “{t.quote}”
               </p>
-              <p className="mt-6 font-semibold text-nexus-navy">— {t.author}</p>
+              <p className="mt-6 font-semibold text-nexus-navy">{t.author}</p>
             </Reveal>
           ))}
         </div>

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Nexus Chicago Realty Group",
   },
   description:
-    "From click to close, Nexus is the crossroads of Chicago real estate. Full-time, experienced agents serving Chicago and the North Shore — buying, selling, REO, and new construction.",
+    "From click to close, Nexus is the crossroads of Chicago real estate. Full-time, experienced agents serving Chicago and the North Shore: buying, selling, REO, and new construction.",
   keywords: [
     "Chicago real estate",
     "Chicago homes for sale",

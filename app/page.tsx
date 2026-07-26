@@ -31,7 +31,7 @@ export default function Home() {
               is about consumer service, consumer service, consumer service.
               Whether you're selling your home or searching the latest Chicago
               listings, our experienced agents assist with every real estate
-              need — backed by a management staff with over 50 years of
+              need, backed by a management staff with over 50 years of
               experience.
             </p>
             <p className="mt-4 text-base leading-relaxed text-nexus-ink/75">

@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.22 }}
           className="mt-6 max-w-xl text-lg leading-relaxed text-white/85"
         >
-          From click to close — full-time, local experts guiding you through
+          From click to close: full-time, local experts guiding you through
           buying, selling, and everything in between.
         </motion.p>
         <motion.div
@@ -70,7 +70,7 @@ export default function Hero() {
             className="flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/10"
           >
             <MessageCircle size={16} />
-            Ask Us Anything — EN · ES · PL
+            Ask Us Anything (EN · ES · PL)
           </button>
         </motion.div>
       </div>

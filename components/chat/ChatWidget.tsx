@@ -82,7 +82,7 @@ export default function ChatWidget() {
         body: JSON.stringify(payload),
       });
     } catch {
-      // Silently fail — don't block chat UX for notification
+      // Silently fail; don't block chat UX for notification
     }
   };
 

@@ -69,7 +69,7 @@ export async function POST(req: NextRequest) {
             "Nexus Chicago Website <onboarding@resend.dev>",
           to: [process.env.LEAD_TO_EMAIL || "info@nexuschicago.com"],
           reply_to: email,
-          subject: `Website Contact: ${name} — ${interest || "General"}`,
+          subject: `Website Contact: ${name} - ${interest || "General"}`,
           text: emailBody,
         }),
       });

@@ -22,7 +22,7 @@ export default function Neighborhoods() {
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/75">
             Every Nexus agent lives, works, and is part of the communities they
-            represent — from the lakefront to the North Shore.
+            represent, from the lakefront to the North Shore.
           </p>
         </Reveal>
         <Reveal delay={0.15} className="mt-10 flex flex-wrap gap-3">

@@ -12,7 +12,7 @@ export default function CtaBand() {
         </h2>
         <p className="mt-4 max-w-xl text-base text-white/75">
           Tell us what you're looking for and a Nexus agent will reach out the
-          same day — se habla español · mówimy po polsku.
+          same day. Se habla español · mówimy po polsku.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <Link

@@ -124,7 +124,7 @@ export default function ContactForm() {
       </button>
       {status === "error" && (
         <p className="text-sm text-red-500">
-          Something went wrong — please try again or call 773.259.9676.
+          Something went wrong. Please try again or call 773.259.9676.
         </p>
       )}
     </form>

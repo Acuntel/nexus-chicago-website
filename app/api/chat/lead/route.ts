@@ -64,7 +64,7 @@ export async function POST(req: NextRequest) {
 
     const emailBody = [
       isFollowUp
-        ? "🤖 AI Chatbot Lead — Conversation Complete"
+        ? "🤖 AI Chatbot Lead: Conversation Complete"
         : "🤖 New AI Chatbot Lead",
       "",
       `Name: ${name}`,
@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
             ),
           ]
         : [
-            "(User just started chatting — transcript will follow when conversation ends.)",
+            "(User just started chatting; transcript will follow when conversation ends.)",
           ]),
     ]
       .filter(Boolean)
@@ -102,8 +102,8 @@ export async function POST(req: NextRequest) {
           to: [process.env.LEAD_TO_EMAIL || "info@nexuschicago.com"],
           reply_to: email,
           subject: isFollowUp
-            ? `AI Chat Complete: ${name} — ${service || "General"}`
-            : `New AI Chat Lead: ${name} — ${service || "General"}`,
+            ? `AI Chat Complete: ${name} - ${service || "General"}`
+            : `New AI Chat Lead: ${name} - ${service || "General"}`,
           text: emailBody,
         }),
       });

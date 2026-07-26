@@ -35,7 +35,7 @@ export default function TestimonialsPreview() {
                 “{t.quote}”
               </p>
               <p className="mt-6 text-sm font-semibold text-nexus-navy">
-                — {t.author}
+                {t.author}
               </p>
             </Reveal>
           ))}

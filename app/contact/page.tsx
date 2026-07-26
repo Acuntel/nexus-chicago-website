@@ -8,7 +8,7 @@ import { SITE } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Nexus Chicago Realty Group — 325 Park Ave, River Forest, IL 60305. Call 773.259.9676.",
+    "Contact Nexus Chicago Realty Group, 325 Park Ave, River Forest, IL 60305. Call 773.259.9676.",
 };
 
 const DETAILS = [

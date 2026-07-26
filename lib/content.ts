@@ -51,7 +51,7 @@ export const AGENTS = [
     phone: "630.542.6669",
     phoneHref: "tel:+16305426669",
     email: "vincent@nexuschicago.com",
-    bio: "Specialist in REO and short sales, first-time buyers, and new construction — guiding clients through every kind of Chicago transaction with steady, practical expertise.",
+    bio: "Specialist in REO and short sales, first-time buyers, and new construction, guiding clients through every kind of Chicago transaction with steady, practical expertise.",
     specialties: ["REO & Short Sale", "First-Time Buyers", "New Construction"],
   },
 ];
@@ -82,15 +82,15 @@ export const TESTIMONIALS = [
 export const BUYER_TIPS = [
   {
     title: "Prequalify for a Loan",
-    body: "Being prequalified determines how much house you can afford — and lets you move swiftly when you find the right one, especially when you aren't the only interested buyer.",
+    body: "Being prequalified determines how much house you can afford, and lets you move swiftly when you find the right one, especially when you aren't the only interested buyer.",
   },
   {
     title: "Shop Rates and Terms",
-    body: "Even half a percentage point makes a huge difference over the life of a loan. On a $100,000 mortgage, 8% vs 7.5% is about $35 a month — $12,600 over 30 years.",
+    body: "Even half a percentage point makes a huge difference over the life of a loan. On a $100,000 mortgage, 8% vs 7.5% is about $35 a month, or $12,600 over 30 years.",
   },
   {
     title: "Use a Buyer Agent",
-    body: "A buyer agent is legally responsible for representing your interests in the transaction — and is generally compensated by the seller at closing.",
+    body: "A buyer agent is legally responsible for representing your interests in the transaction, and is generally compensated by the seller at closing.",
   },
   {
     title: "Know What Helps Resale",
@@ -117,7 +117,7 @@ export const SELLER_TIPS = [
   },
   {
     title: "Make Room for Space",
-    body: "Buyers are shopping for storage as much as living space. Clear out the attic, basement and closets — an organized closet always looks larger.",
+    body: "Buyers are shopping for storage as much as living space. Clear out the attic, basement and closets. An organized closet always looks larger.",
   },
   {
     title: "Think Safety",

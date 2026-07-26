@@ -8,7 +8,7 @@ const SERVICES = [
     title: "For Buyers",
     href: "/buyers",
     image: "/images/buyers.jpg",
-    body: "First home or fifth — prequalification to closing, we handle every step with you.",
+    body: "First home or fifth: from prequalification to closing, we handle every step with you.",
   },
   {
     title: "For Sellers",
