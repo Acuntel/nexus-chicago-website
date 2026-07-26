@@ -3,7 +3,6 @@ import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import ChatWidget from "@/components/chat/ChatWidget";
 
 const display = Playfair_Display({
   subsets: ["latin"],
@@ -45,7 +44,6 @@ export default function RootLayout({
         <Nav />
         <main>{children}</main>
         <Footer />
-        <ChatWidget />
       </body>
     </html>
   );

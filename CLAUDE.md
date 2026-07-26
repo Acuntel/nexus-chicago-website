@@ -13,19 +13,15 @@ infoquesthost.com.
   blue `#1b568e`, steel `#3f7898`, sky `#5ca1dc`, periwinkle `#97abe6`,
   mist `#e5ecef`, defined in tailwind.config.ts under `nexus.*`
 
-## Trilingual AI chatbot (EN/ES/PL)
+## Chatbot: REMOVED (2026-07-26)
 
-Ported from RealLaw (`~/Desktop/Client Websites/RealLaw website/reallawgroup-next`):
-
-- `components/chat/`, widget (lead form → streaming chat), language toggle in header
-- `app/api/chat/route.ts`, Claude Haiku 4.5, streaming, prompt-cached system
-  prompt, realtor persona with FAIR HOUSING guardrails
-- `app/api/chat/lead/route.ts`, lead + transcript email via Resend
-- `app/api/chat/session/route.ts` + `lib/{turnstile,session-token,usage-limit}.ts`:
-  optional Turnstile/Upstash anti-abuse (graceful no-op until keys are set)
-- Master switch: `CHAT_ENABLED=true` env var; off = 503
-- Hero "Ask Us Anything" button opens the widget via the `nexus:open-chat`
-  CustomEvent
+The trilingual (EN/ES/PL) AI chatbot was built, deployed, verified, then
+REMOVED at Brady's request. To restore it: `git revert` the removal commit
+(look for "Remove chatbot"), `npm install`, and re-add `ANTHROPIC_API_KEY` +
+`CHAT_ENABLED=true` in Vercel (key source: RealLaw's Vercel prod env, but
+strip the literal trailing `\n` from the stored value; add with printf).
+The implementation reference remains in RealLaw
+(`~/Desktop/Client Websites/RealLaw website/reallawgroup-next`).
 
 ## Content
 

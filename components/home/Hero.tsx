@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import { SITE } from "@/lib/content";
 
 export default function Hero() {
   return (
@@ -63,15 +64,13 @@ export default function Hero() {
               className="transition-transform group-hover:translate-x-1"
             />
           </Link>
-          <button
-            onClick={() =>
-              window.dispatchEvent(new CustomEvent("nexus:open-chat"))
-            }
+          <a
+            href={SITE.phoneHref}
             className="flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/10"
           >
-            <MessageCircle size={16} />
-            Ask Us Anything (EN · ES · PL)
-          </button>
+            <Phone size={16} />
+            Call {SITE.phone}
+          </a>
         </motion.div>
       </div>
     </section>
